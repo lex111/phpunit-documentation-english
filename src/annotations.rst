@@ -419,7 +419,7 @@ specific exception.
          * @expectedException     MyException
          * @expectedExceptionCode 20
          */
-        public function testExceptionHasErrorcode20()
+        public function testExceptionHasErrorCode20()
         {
             throw new MyException('Some Message', 20);
         }
@@ -440,7 +440,7 @@ specify a class constant as an
           * @expectedException     MyException
           * @expectedExceptionCode MyClass::ERRORCODE
           */
-        public function testExceptionHasErrorcode20()
+        public function testExceptionHasErrorCode20()
         {
           throw new MyException('Some Message', 20);
         }
